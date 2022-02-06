@@ -1,23 +1,20 @@
 # Election Analysis
-Overview of Election Audit: Explain the purpose of this election audit analysis.
+## Overview 
+This election audit analysis provides a breakdown of the congressional votes in order to certify the congressional election for the Colorado Board of Elections.  The resources used to develop this analysis were Python and the "election_results.csv" file.
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+## Results
+The results of the analysis show:
+   - Total number of votes cast
+   - A list of counties with the percentage of total votes for each county and the number of votes each county received
+   - The county with the largest voter turnout
+   - A list of candidates with the percentage of votes each candidate won and the number of votes they received
+   - The winner of the election based on popular vote
 
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+As you can see from the following output:
 
-The written analysis has the following:
+![Capture](https://user-images.githubusercontent.com/90974647/152692450-a2f22ba8-f3cf-4f0a-8a12-a8d63a4f4983.PNG)
 
-Overview of Election Audit
+Denver County had the largest number of votes by 83%.  Diana DeGette won the election with 74% of the total votes.
 
-The purpose of this election analysis audit is well defined. (3 pt)
-Election Audit Results
-
-There is a bulleted list where each election outcome is addressed. (7 pt)
-Election Audit Summary
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
+# Summary
+This audit analysis script can be easily modified to be used for other elections.  Depending on the new data set, the read in file name may need to be updated, along with any other differences between the existing and future data sets (column order, data types, etc.).
